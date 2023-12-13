@@ -1,0 +1,42 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.938);
+    display: flex;
+    align-items: start;
+}
+
+
+/* left header */
+
+.left-side {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    font-size: 19px;
+    background-color: rgba(255, 255, 255, 0.938);
+    margin: 20 15 20;
+    font-weight: 500;
+    font-stretch: extra-expanded;
+}
+
+  .nav-icon {
+    width: 50px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.938);
+}
+
+/* right-header */
+
