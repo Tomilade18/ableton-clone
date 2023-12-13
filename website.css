@@ -13,8 +13,9 @@ body {
 .header {
     background-color: rgba(255, 255, 255, 0.938);
     display: flex;
-    align-items: start;
+    justify-content: space-between;
 }
+
 
 
 /* left header */
@@ -40,3 +41,10 @@ button {
 
 /* right-header */
 
+.right-side {
+   display: flex;
+}
+
+.color {
+    color: blue;
+}
