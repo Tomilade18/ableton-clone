@@ -48,3 +48,34 @@ button {
 .color {
     color: blue;
 }
+
+/* main body */
+
+.Main {
+    margin-top: 1px;
+    background-color: rgba(255, 255, 255, 0.938);
+}
+
+.picture-1-contain {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.picture-1 {
+    width: 90%;
+    height: 600px;
+    filter: brightness(120%);
+}
+
+.picture-1-text {
+    position: absolute;
+    font-size: 150px;
+    margin-top: 200px; 
+    color: #ff764d;
+}
+
+
+/* footer */
+
+
